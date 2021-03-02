@@ -1,0 +1,59 @@
+.cards-overlay {
+  margin: 10px;
+  width: 280px;
+}
+a {
+  width: 280px;
+}
+.product-card {
+  /* background: linear-gradient(90deg, #cbbaaa 0%, #d1c1b4 100%); */
+  /* background: linear-gradient(90deg, #827870 0%, #cfc0b2 100%); */
+  background: linear-gradient(90deg, #d7c7b8 0%, #c2b1a1 100%);
+  width: 280px;
+  height: 320px;
+  /* padding: 34px 10px; */
+  position: relative;
+  border-radius: 4px;
+  margin: 10px;
+}
+.fa-heart {
+  top: 10px;
+  left: 10px;
+  color: #989898;
+  position: absolute;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.product-image {
+  width: 280px;
+  height: 320px;
+  display: block;
+
+  opacity: 01;
+}
+.product-description {
+  bottom: -100px;
+  position: absolute;
+  width: 265px;
+  height: 100px;
+  /* background: rgb(192, 93, 93); */
+}
+
+.product-description > p {
+  margin: 8px;
+  opacity: 0.25;
+}
+
+.product-description > h5 {
+  margin: 8px;
+}
+
+.product-description > h4 {
+  padding: 2px;
+  margin: 8px;
+  position: absolute;
+  right: 0;
+  bottom: 63px;
+}
+/* background-image: url("https://cdn.rebelle.com/te/teaser_topdesigners_primary_louisvuitton.jpg"); */

@@ -1,0 +1,9 @@
+.mob_search_bar{
+    display: none ;
+}
+
+@media screen and (max-width:950px){
+    .mob_search_bar{
+        display: block;
+    }
+}
